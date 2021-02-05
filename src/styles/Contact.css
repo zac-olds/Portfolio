@@ -1,10 +1,10 @@
 .contact-container {
   background-color: #12151f;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
-  align-items: top;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: linear-gradient(white, #12151f);
 }
 
@@ -13,8 +13,22 @@
   width: 400px;
   background: url("https://i.imgur.com/bGFGwFP.gif");
   background-size: cover;
+  background-position: bottom 20px;
   font-size: 100px;
   font-family: "Righteous", cursive;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.form-container {
+  width: 300px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container button {
+  margin-top: 25px;
 }

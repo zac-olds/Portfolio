@@ -5,8 +5,10 @@ import "../styles/Nav.css";
 const Nav = () => {
   return (
     <div className="nav-bar">
-      {/* <div className="filter"></div> */}
-      <h1>Zac Olds</h1>
+      <div className="logo-container">
+        <div className="logo"></div>
+        <h1>Zac Olds</h1>
+      </div>
       <div className="nav-links">
         <Link to="/about">ABOUT</Link>
         <Link to="/projects">PROJECTS</Link>
