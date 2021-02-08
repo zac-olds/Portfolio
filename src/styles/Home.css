@@ -1,6 +1,7 @@
 .home-container {
-  height: 100vh;
+  height: 900px;
   width: auto;
   background-image: url("../assets/jeff-king-haleakala.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link} from "react-scroll";
 import "../styles/Nav.css";
 
 const Nav = () => {
@@ -10,10 +10,37 @@ const Nav = () => {
         <h1>Zac Olds</h1>
       </div>
       <div className="nav-links">
-        <Link to="/about">ABOUT</Link>
-        <Link to="/projects">PROJECTS</Link>
-        <Link to="/contact">CONTACT</Link>
-        <Link to="/fun">FUN</Link>
+        <Link
+          to="about"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-175}
+          duration={500}
+        >
+          ABOUT
+        </Link>
+        <Link
+          to="projects"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          PROJECTS
+        </Link>
+        <Link
+          to="contact"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          CONTACT
+        </Link>
+        {/* <Link to="/fun">FUN</Link> */}
       </div>
     </div>
   );

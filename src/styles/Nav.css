@@ -5,6 +5,10 @@
   align-items: center;
   color: #12151f;
   font-family: "Raleway", sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .nav-bar h1 {
@@ -31,7 +35,7 @@
 }
 
 .nav-links {
-  width: 300px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   margin-right: 25px;
@@ -40,6 +44,13 @@
 .nav-links a {
   text-decoration: none;
   color: #12151f;
+  transform: rotate(-45deg);
+}
+
+.nav-links > .active {
+  color: #371bb1;
+  font-weight: bold;
+  text-shadow: 5px 5px 20px #371bb1;
 }
 
 .nav-links a:hover {

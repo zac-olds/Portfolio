@@ -31,7 +31,9 @@ const Contact = () => {
   return (
     <>
       <div className="contact-container">
-        <div className="contact-text">Contact</div>
+        <div className="contact-text" id="contact">
+          Contact
+        </div>
         <div className="form-container">
           <form>
             <TextField
@@ -43,7 +45,6 @@ const Contact = () => {
               required="true"
               value={name}
               onChange={handleChange}
-              autoFocus="true"
             />
             <TextField
               name="email"

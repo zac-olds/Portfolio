@@ -1,4 +1,5 @@
 import React from "react";
+import {Element} from "react-scroll";
 
 // MATERIAL UI IMPORTS
 import {Button} from "@material-ui/core";
@@ -21,7 +22,9 @@ const About = () => {
   return (
     <>
       <div className="about-container">
-        <div className="about-text">About</div>
+        <div className="about-text" id="about">
+          About
+        </div>
         <div className="info-box">
           <img className="profile-photo" alt="profile" src={profile} />
           <div className="brand-statement">

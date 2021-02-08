@@ -1,9 +1,10 @@
 .about-container {
   background-color: #12151f;
-  height: 100vh;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: linear-gradient(white, #12151f);
 }
 
@@ -31,8 +32,8 @@
   height: 300px;
   width: 300px;
   border-radius: 40% 15% 40%;
-  box-shadow: 5px 5px 20px #12151f;
-  border: 3px solid #05f4b7;
+  box-shadow: 5px 5px 20px #371bb1;
+  border: 1px solid #12151f;
 }
 
 .brand-statement {
@@ -58,11 +59,26 @@
 #react-logo,
 #rails-logo,
 #ruby-logo {
-  box-shadow: 5px 5px 20px #12151f;
+  background-color: white;
+  box-shadow: 5px 5px 20px #371bb1;
   margin: 0px 5px 0px 5px;
   border-radius: 5px;
 }
 
 .tech-header {
   font-family: "Righteous", cursive;
+}
+
+@media only screen and (max-width: 750px) {
+  .info-box {
+    flex-direction: column;
+  }
+  .profile-photo {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 25px;
+  }
+  .brand-statement {
+    text-align: center;
+  }
 }

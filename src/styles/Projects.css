@@ -1,13 +1,13 @@
-.container {
+.projects-container {
   background-color: #12151f;
-  height: 100vh;
+  height: 800px;
   display: flex;
   align-items: top;
   justify-content: center;
   background-image: linear-gradient(white, #12151f);
 }
 
-.text {
+.projects-text {
   height: 150px;
   width: 400px;
   background: url("https://i.imgur.com/4vzyZMe.gif");
