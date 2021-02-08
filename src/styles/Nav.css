@@ -14,13 +14,17 @@
 .logo-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
 }
 
 .logo {
   background-color: #371bb1;
-  background: url("https://i.imgur.com/feZv98F.gif");
+  background: url("https://i.imgur.com/2XRzqYX.png");
   background-position: center;
-  background-size: 100px 100px;
+  background-size: 65px 65px;
+  background-repeat: no-repeat;
   height: 75px;
   width: 75px;
   border-radius: 100%;

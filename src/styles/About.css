@@ -1,20 +1,68 @@
 .about-container {
   background-color: #12151f;
   height: 100vh;
-  width: 100vw;
   display: flex;
-  align-items: top;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: linear-gradient(white, #12151f);
 }
 
 .about-text {
-  height: 150px;
+  height: 100px;
   width: 300px;
-  background: url("https://i.imgur.com/bGFGwFP.gif");
+  background: url("https://i.imgur.com/4vzyZMe.gif");
   background-size: cover;
   font-size: 100px;
   font-family: "Righteous", cursive;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 25px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  margin: 25px;
+}
+
+.profile-photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 40% 15% 40%;
+  box-shadow: 5px 5px 20px #12151f;
+  border: 3px solid #05f4b7;
+}
+
+.brand-statement {
+  width: 350px;
+  height: auto;
+  text-align: left;
+  margin-right: 25px;
+}
+
+.brand-statement {
+  display: flex;
+  flex-direction: column;
+}
+
+#resume-button {
+  margin-top: 25px;
+}
+
+#css3-logo,
+#html5-logo,
+#javascript-logo,
+#nodejs-logo,
+#react-logo,
+#rails-logo,
+#ruby-logo {
+  box-shadow: 5px 5px 20px #12151f;
+  margin: 0px 5px 0px 5px;
+  border-radius: 5px;
+}
+
+.tech-header {
+  font-family: "Righteous", cursive;
 }
