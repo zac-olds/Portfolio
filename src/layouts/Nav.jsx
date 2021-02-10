@@ -15,7 +15,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-175}
+          offset={-170}
           duration={500}
         >
           ABOUT
@@ -25,7 +25,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           PROJECTS
@@ -35,12 +35,11 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           CONTACT
         </Link>
-        {/* <Link to="/fun">FUN</Link> */}
       </div>
     </div>
   );

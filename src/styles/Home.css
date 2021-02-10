@@ -1,7 +1,7 @@
 .home-container {
   height: 900px;
-  width: auto;
-  background-image: url("../assets/jeff-king-haleakala.jpg");
+  width: 100%;
+  background-image: url("../assets/jonatan-pie-stars.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

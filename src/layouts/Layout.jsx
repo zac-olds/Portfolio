@@ -3,10 +3,10 @@ import Nav from "./Nav";
 
 const Layout = (props) => {
   return (
-    <div>
+    <>
       <Nav />
-      {props.children}
-    </div>
+      <div className="content-container">{props.children}</div>
+    </>
   );
 };
 

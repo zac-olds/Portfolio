@@ -38,6 +38,7 @@ const About = () => {
             <Button
               id="resume-button"
               variant="outlined"
+              href="https://drive.google.com/file/d/1oCuNIvHKsEUB962nO-MmIiCCNdK7eIo1/view?usp=sharing"
               endIcon={<PictureAsPdfIcon />}
             >
               See My Resume

@@ -1,11 +1,16 @@
 .contact-container {
+  z-index: 1;
   background-color: #12151f;
   height: 800px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   background-image: linear-gradient(white, #12151f);
+  box-shadow: 5px 5px 20px #371bb1;
 }
 
 .contact-text {
