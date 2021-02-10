@@ -1,12 +1,18 @@
 import React from "react";
 import {Link} from "react-scroll";
+import {animateScroll as scroll} from "react-scroll";
 import "../styles/Nav.css";
 
 const Nav = () => {
+  // Create handle click function to scroll to the top of the page when the logo is clicked.
+  const handleClick = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <div className="nav-bar">
       <div className="logo-container">
-        <div className="logo"></div>
+        <div className="logo" onClick={handleClick}></div>
       </div>
       <div className="nav-links">
         <Link
