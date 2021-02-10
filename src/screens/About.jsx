@@ -1,5 +1,4 @@
 import React from "react";
-import {Element} from "react-scroll";
 
 // MATERIAL UI IMPORTS
 import {Button} from "@material-ui/core";
@@ -29,15 +28,17 @@ const About = () => {
           <img className="profile-photo" alt="profile" src={profile} />
           <div className="brand-statement">
             After joining the Navy out of high school, I learned the value of
-            working as a team and pushing myself. I applied these principles to
-            my life, and strove to become a geologist to sate my curiosity with
-            science and the solid earth. Now, I am again reinventing myself and
-            following a childhood dream to become a software engineer. I am a
-            devoted life long learner who is always looking for the next
-            mountain to climb.
+            working as part of a team and pushing myself to achieve my goals. I
+            applied these principles to my life, and strove to become a
+            geologist to sate my curiosity with science and the solid earth.
+            Now, I am again reinventing myself and following a childhood dream
+            to become a software engineer. I am a devoted life long learner who
+            is always looking for the next mountain to climb.
             <Button
               id="resume-button"
               variant="outlined"
+              target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1oCuNIvHKsEUB962nO-MmIiCCNdK7eIo1/view?usp=sharing"
               endIcon={<PictureAsPdfIcon />}
             >

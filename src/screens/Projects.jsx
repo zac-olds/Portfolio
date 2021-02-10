@@ -2,18 +2,14 @@
 import React from "react";
 
 // MATERIAL UI IMPORTS
-import {Button, Paper} from "@material-ui/core";
+import {Button} from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import WebIcon from "@material-ui/icons/Web";
 
 // ASSETS
-import brewQuery from "../assets/brewQuery.png";
 import beer from "../assets/beer.jpg";
-import habanerosMarket from "../assets/habaneros-marketplace.png";
 import pepper from "../assets/pepper.jpg";
-import theWrapper from "../assets/the-wrapper.png";
 import cigar from "../assets/cigar.jpg";
-import mineralopedia from "../assets/mineralopedia.png";
 import mineral from "../assets/mineral.jpg";
 
 // STYLES
@@ -25,7 +21,7 @@ const Projects = () => {
       image: beer,
       name: "brewQuery",
       description:
-        "A simple website that will display basic brewery info, and a map. The user can search a database of breweries in the United States and bring up a map and a link to the breweries website (if available). The search feature will allow the user to search breweries using a zip code, brewery name, or city/state. Website will initially load with information and brewery location of one of my favorite breweries in Longmont, CO.",
+        "My first project. A simple website that will display basic brewery info, and a map. The user can search a database of breweries in the United States and bring up a map and a link to the breweries website (if available). The search feature will allow the user to search breweries using a zip code, brewery name, or city/state.",
       liveUrl: "https://zac-olds.github.io/brewQuery/",
       github: "https://github.com/zac-olds/brewQuery",
     },
@@ -33,7 +29,7 @@ const Projects = () => {
       image: cigar,
       name: "The Wrapper",
       description:
-        "wrapper is an airtable and React base app that will allow users to discuss, learn about, and discover new cigars. Cigar culture is historically a bit snobby, so this app will endeavor to make cigars more accesible to the beginner, while also providing a useful service to the purists. It will allow users to post reviews of cigars, add tasting notes, revisit past reviews (and update them), and search the database for specific reviews based on cigar name or by author.",
+        "wrapper is an airtable and React base app that will allow users to discuss, learn about, and discover new cigars. It will allow users to post reviews of cigars, add tasting notes, revisit past reviews (and update them), and search the database for specific reviews based on cigar name or by author.",
       liveUrl: "https://the-wrapper.netlify.app/",
       github: "https://github.com/zac-olds/wrapper",
     },
@@ -62,30 +58,32 @@ const Projects = () => {
           Projects
         </div>
         <div className="projects">
-          {projects.map((project) => {
+          {projects.map((project, index) => {
             return (
-              <div className="project-container">
+              <div className="project-container" key={index}>
                 <img
                   className="project-image"
                   alt="profile"
                   src={project.image}
                 />
-                <h3>{project.name}</h3>
+                <h3 className="project-name">{project.name}</h3>
                 <div className="project-description">{project.description}</div>
-                <Button
-                  variant="outlined"
-                  href={project.liveUrl}
-                  endIcon={<WebIcon />}
-                >
-                  Live Site
-                </Button>
-                <Button
-                  variant="outlined"
-                  href={project.github}
-                  endIcon={<GitHubIcon />}
-                >
-                  Github
-                </Button>
+                <div className="project-buttons">
+                  <Button
+                    variant="outlined"
+                    href={project.liveUrl}
+                    endIcon={<WebIcon />}
+                  >
+                    Live Site
+                  </Button>
+                  <Button
+                    variant="outlined"
+                    href={project.github}
+                    endIcon={<GitHubIcon />}
+                  >
+                    Github
+                  </Button>
+                </div>
               </div>
             );
           })}

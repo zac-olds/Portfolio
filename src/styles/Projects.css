@@ -10,7 +10,8 @@
   flex-direction: column;
   justify-content: top;
   background-image: linear-gradient(white, #12151f);
-  box-shadow: 5px 5px 20px #371bb1;
+  box-shadow: 5px 5px 20px #12151f;
+  padding-bottom: 15px;
 }
 
 .projects-text {
@@ -31,13 +32,30 @@
   width: 90%;
   font-family: "Raleway", sans-serif;
 }
+
+.project-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #12151f;
+}
+
 .project-image {
   height: 200px;
   width: auto;
-  border: 2px solid #12151f;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .project-description {
-  width: 200px;
+  width: 300px;
   text-align: justify;
+}
+
+.project-buttons {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
 }

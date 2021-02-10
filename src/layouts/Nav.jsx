@@ -7,7 +7,6 @@ const Nav = () => {
     <div className="nav-bar">
       <div className="logo-container">
         <div className="logo"></div>
-        <h1>Zac Olds</h1>
       </div>
       <div className="nav-links">
         <Link
@@ -15,7 +14,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-170}
+          offset={-70}
           duration={500}
         >
           ABOUT
@@ -25,7 +24,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-75}
+          offset={-70}
           duration={500}
         >
           PROJECTS
@@ -35,7 +34,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-75}
+          offset={-70}
           duration={500}
         >
           CONTACT

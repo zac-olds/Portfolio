@@ -1,20 +1,16 @@
 // DEPENDENCIES
 import React, {useState} from "react";
-// import {useHistory} from "react-router-dom";
 import * as emailjs from "emailjs-com";
 import {animateScroll as scroll} from "react-scroll";
 
 // MATERIAL UI IMPORTS
 import {TextField, Button} from "@material-ui/core";
-import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
+import SendIcon from "@material-ui/icons/Send";
 
 // STYLES
 import "../styles/Contact.css";
 
 const Contact = () => {
-  // Set up history variable to redirect after email is sent
-  // const history = useHistory();
-
   // Creating state variables to keep track of state for name, email and message from the form.
   const [formData, setFormData] = useState({
     from_name: "",
@@ -24,7 +20,6 @@ const Contact = () => {
 
   // Setting variables from state so that they can be updated by the handle change function.
   const {from_name, from_email, message} = formData;
-  // const {name, email, message} = formData;
 
   // Generic handle change function to handle the updating of the form data.
   const handleChange = (e) => {
@@ -51,10 +46,11 @@ const Contact = () => {
         templateParams,
         "user_H5NzxnJ93mtGcRjsOyffT"
       )
-      .then(handleSent());
+      .then(handleSend());
   };
 
-  const handleSent = () => {
+  // Handle send function to clear the form and scroll back to the top of the page.
+  const handleSend = () => {
     setFormData({
       from_name: "",
       from_email: "",
@@ -72,7 +68,7 @@ const Contact = () => {
           className={toggleForm}
           variant="outlined"
           fullWidth
-          endIcon={<CheckCircleOutlineIcon />}
+          endIcon={<SendIcon />}
         >
           {formData.errorMsg}
         </Button>
@@ -84,7 +80,7 @@ const Contact = () => {
           className="contact-button"
           variant="outlined"
           fullWidth
-          endIcon={<CheckCircleOutlineIcon />}
+          endIcon={<SendIcon />}
         >
           Submit
         </Button>
