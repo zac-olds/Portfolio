@@ -46,7 +46,7 @@ const Projects = () => {
       name: "Mineralopedia",
       description:
         "Mineralopedia is a (soon to be fully searchable) database of common minerals and their properties that will act as a guide to proper identification and as a reference. Users will be able to register an account that will allow them to add minerals to favorites and add, edit, and delete comments.",
-      liveUrl: "https://mineralopedia.netlify.app/login",
+      liveUrl: "https://mineralopedia.netlify.app/minerals",
       github: "https://github.com/zac-olds/Mineralopedia",
     },
   ];
