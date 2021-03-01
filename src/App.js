@@ -17,6 +17,10 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <div className="apod-link">
+          <p>&copy; 2021 Zac Olds</p>
+          <a href="https://apod.nasa.gov/apod/">Background Image by NASA APOD</a>
+        </div>
       </Layout>
     </div>
   );

@@ -1,1 +1,16 @@
+.apod-link {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  line-height: 20px;
+  color: #12151f;
+}
 
+.apod-link a {
+  color: #12151f;
+  /* text-shadow: 0px 0px 10px #371bb1; */
+  text-decoration: none;
+}
+
+.apod-link a:hover {
+  text-shadow: 0px 0px 5px #371bb1, 0px 0px 20px #371bb1;
+}

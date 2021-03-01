@@ -1,8 +1,9 @@
 .home-container {
   height: 900px;
   width: 100%;
-  background-image: url("../assets/jonatan-pie-stars.jpg");
+  /* background-image: url("../assets/jonatan-pie-stars.jpg"); */
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -16,15 +17,16 @@
   color: white;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
-  text-shadow: 0px 0px 5px #05f4b7;
-  text-shadow: 0px 0px 20px #05f4b7;
+  text-shadow: 0px 0px 10px #05f4b7, 0px 0px 20px #05f4b7;
 }
 
 .home-text h1 {
   font-size: 4rem;
   margin: 0px;
   font-family: "Righteous", cursive;
+  /* text-shadow: 0px 0px 10px #05f4b7, 0px 0px 20px #05f4b7; */
 }
+
 .icon-button {
   color: white;
 }
