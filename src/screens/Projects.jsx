@@ -21,7 +21,7 @@ const Projects = () => {
       image: beer,
       name: "brewQuery",
       description:
-        "My first project. A simple website that will display basic brewery info, and a map. The user can search a database of breweries in the United States and bring up a map and a link to the breweries website (if available). The search feature will allow the user to search breweries using a zip code, brewery name, or city/state.",
+        "My first project. A single page website that displays basic brewery info and a brewery map. The user can search a database of breweries in the United States and bring up it up on map with a link to the breweries website (if available). The search feature will allow the user to search for breweries using a zip code, brewery name, or city/state. Built entirely with Javascript, CSS, and HTML",
       liveUrl: "https://zac-olds.github.io/brewQuery/",
       github: "https://github.com/zac-olds/brewQuery",
     },
@@ -29,7 +29,7 @@ const Projects = () => {
       image: cigar,
       name: "The Wrapper",
       description:
-        "wrapper is an airtable and React base app that will allow users to discuss, learn about, and discover new cigars. It will allow users to post reviews of cigars, add tasting notes, revisit past reviews (and update them), and search the database for specific reviews based on cigar name or by author.",
+        "wrapper is a cigar review and tracking app that will allow users to discuss, learn about, and discover new cigars. It allows users to post reviews of cigars, add tasting notes and ratings, revisit past reviews (and update them), and search the database for specific reviews based on cigar name or by author. The app is put together with React.js and uses an Airtable database as the back-end.",
       liveUrl: "https://the-wrapper.netlify.app/",
       github: "https://github.com/zac-olds/wrapper",
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       image: pepper,
       name: "Habanero's Market",
       description:
-        "A full stack online marketplace app for hot sauce enthusiasts. Users can create a unique user account that will allow them to create, read, edit, and delete items on the marketplace.",
+        "A full-stack mock online marketplace app for hot sauce enthusiasts, and built by a team of hot sauce enthusiasts. Once they create and account, users can  create, read, edit, and delete hot sauces on the marketplace, as well as browse the cataloge and view details about each sauce. The front-end is built using React.js, with Express and MongoDB providing the back-end functionality.",
       liveUrl: "https://habaneros-marketplace.netlify.app/",
       github: "https://github.com/zac-olds/habaneros-marketplace",
     },
@@ -45,7 +45,7 @@ const Projects = () => {
       image: mineral,
       name: "Mineralopedia",
       description:
-        "Mineralopedia is a (soon to be fully searchable) database of common minerals and their properties that will act as a guide to proper identification and as a reference. Users will be able to register an account that will allow them to add minerals to favorites and add, edit, and delete comments.",
+        "Mineralopedia is a (soon to be fully searchable) database of common minerals and their properties that will act as a guide to proper identification and as a reference. Users will be able to register an account that will allow them to add minerals to favorites and add, edit, and delete comments. Constructed with React.js on a RESTful API utilizing Ruby on Rails and PostgreSQL.",
       liveUrl: "https://mineralopedia.netlify.app/minerals",
       github: "https://github.com/zac-olds/Mineralopedia",
     },

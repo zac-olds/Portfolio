@@ -20,7 +20,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-70}
           duration={500}
         >
           ABOUT
@@ -40,7 +40,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-70}
           duration={500}
         >
           CONTACT

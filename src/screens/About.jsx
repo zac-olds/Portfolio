@@ -27,13 +27,14 @@ const About = () => {
         <div className="info-box">
           <img className="profile-photo" alt="profile" src={profile} />
           <div className="brand-statement">
-            After joining the Navy out of high school, I learned the value of
-            working as part of a team and pushing myself to achieve my goals. I
-            applied these principles to my life, and strove to become a
-            geologist to sate my curiosity with science and the solid earth.
-            Now, I am again reinventing myself and following a childhood dream
-            to become a software engineer. I am a devoted life long learner who
-            is always looking for the next mountain to climb.
+            I learned the value of working as part of a team and pushing myself
+            to achieve my goals while in the Navy. I strove to apply the
+            principles of Honor, Courage, and Commitment to my personal and
+            professional life. My passion for science and exploration has led me
+            along the path from geologist a geologist to software engineer. Now,
+            I am and following a childhood dream to become a software engineer.
+            I am a devoted life long learner who is always excited for the next
+            mountain to climb.
             <Button
               id="resume-button"
               variant="outlined"
