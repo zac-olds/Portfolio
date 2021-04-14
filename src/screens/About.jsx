@@ -27,7 +27,7 @@ const About = () => {
         <div className="info-box">
           <img className="profile-photo" alt="profile" src={profile} />
           <div className="brand-statement">
-            I learned the value of working as part of a team and pushing myself
+            I learned the value of working as part of a team, and pushing myself
             to achieve my goals while in the Navy. I strove to apply the
             principles of Honor, Courage, and Commitment to my personal and
             professional life. My passion for science and exploration has led me
@@ -40,7 +40,7 @@ const About = () => {
               variant="outlined"
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1oCuNIvHKsEUB962nO-MmIiCCNdK7eIo1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1a9CbFvzSzZ-1mafQ1EQqcWYAiMp3Vsmi/view?usp=sharing"
               endIcon={<PictureAsPdfIcon />}
             >
               See My Resume
