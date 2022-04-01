@@ -41,7 +41,8 @@ const About = () => {
               variant="outlined"
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1a9CbFvzSzZ-1mafQ1EQqcWYAiMp3Vsmi/view?usp=sharing"
+              // href="https://drive.google.com/file/d/1a9CbFvzSzZ-1mafQ1EQqcWYAiMp3Vsmi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1vEl6X9xumVeVlIDOW97uiVW2UxPtvYuu/view?usp=sharing"
               endIcon={<PictureAsPdfIcon />}
             >
               See My Resume

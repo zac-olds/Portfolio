@@ -126,7 +126,7 @@ const Contact = () => {
               value={message}
               onChange={handleChange}
               multiline
-              rowsMax={6}
+              rows={6}
             />
             {/* <Button
               variant="outlined"
