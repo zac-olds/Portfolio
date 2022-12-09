@@ -1,9 +1,9 @@
 // COMPONENTS
 import Layout from './layouts/Layout';
-import Home from './screens/Home';
-import Contact from './screens/Contact';
-import About from './screens/About';
-import Projects from './screens/Projects';
+import Home from './layouts/screens/Home';
+import Contact from './layouts/screens/Contact';
+import About from './layouts/screens/About';
+import Projects from './layouts/screens/Projects';
 // import Fun from './screens/Fun';
 
 // STYLES
