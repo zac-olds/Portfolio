@@ -5,17 +5,17 @@ import {Button} from "@material-ui/core";
 import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 
 // ASSETS
-import profile from "../assets/profile.jpg";
-import css3 from "../assets/css3.png";
-import html5 from "../assets/html5.png";
-import js from "../assets/javascript.png";
-import nodejs from "../assets/nodejs.png";
-import react from "../assets/react.png";
-import rails from "../assets/ruby-on-rails.png";
-import ruby from "../assets/ruby.png";
+import profile from "../../assets/profile.jpg";
+import css3 from "../../assets/css3.png";
+import html5 from "../../assets/html5.png";
+import js from "../../assets/javascript.png";
+import nodejs from "../../assets/nodejs.png";
+import react from "../../assets/react.png";
+import rails from "../../assets/ruby-on-rails.png";
+import ruby from "../../assets/ruby.png";
 
 // STYLES
-import "../styles/About.css";
+import "../../styles/About.css";
 
 const About = () => {
   return (

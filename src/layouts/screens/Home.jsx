@@ -1,6 +1,6 @@
 // DEPENDENCIES
 import React from "react";
-import {baseUrl, key} from "../services/apiConfig";
+import {baseUrl, key} from "../../services/apiConfig";
 import {useState, useEffect} from "react";
 import axios from "axios";
 
@@ -10,7 +10,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 // STYLES
-import "../styles/Home.css";
+import "../../styles/Home.css";
 
 const Home = () => {
   // APOD API CALL CODE

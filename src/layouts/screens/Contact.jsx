@@ -8,7 +8,7 @@ import {TextField, Button} from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 
 // STYLES
-import "../styles/Contact.css";
+import "../../styles/Contact.css";
 
 const Contact = () => {
   // Creating state variables to keep track of state for name, email and message from the form.

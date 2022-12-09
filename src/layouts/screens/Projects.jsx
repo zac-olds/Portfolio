@@ -7,13 +7,13 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import WebIcon from "@material-ui/icons/Web";
 
 // ASSETS
-import beer from "../assets/beer.jpg";
-import pepper from "../assets/pepper.jpg";
-import cigar from "../assets/cigar.jpg";
-import mineral from "../assets/mineral.jpg";
+import beer from "../../assets/beer.jpg";
+import pepper from "../../assets/pepper.jpg";
+import cigar from "../../assets/cigar.jpg";
+import mineral from "../../assets/mineral.jpg";
 
 // STYLES
-import "../styles/Projects.css";
+import "../../styles/Projects.css";
 
 const Projects = () => {
   const projects = [
